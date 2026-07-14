@@ -1,61 +1,36 @@
 # Groundwave
 
-**Resilient communications hardware for scenarios where conventional communications fail, are compromised, or cannot be trusted.**
+> **Early-stage adaptive communications platform**
+>
+> “The underlying medium changes. The human intent persists.”
 
-Groundwave is an open-source hardware system built on top of the Reticulum network stack. It provides the integrated hardware, deployment standard, and documentation that turns a collection of powerful open-source communications tools into something a motivated non-expert can build, operate, and trust in the field.
+Groundwave explores how one human can securely reach another across whatever viable devices, paths, transports, relays, caches, and representations are available.
 
-## Why This Exists
+The promise is bounded: Groundwave cannot create connectivity, defeat physics, or guarantee delivery. It aims to make the best responsible use of available connectivity while respecting privacy, owner policy, regulation, energy, storage, bandwidth, and airtime fairness.
 
-Most people rely on communications infrastructure they do not control: cellular carriers, internet service providers, messaging apps backed by a server somewhere, GPS systems subject to jamming. When that infrastructure fails, is compromised, or is actively used against them, they have no fallback.
+## Project state
 
-A lot of excellent open-source software already addresses this — Reticulum, LXMF, RNode, Sideband, Haven MANET, Briar, OsmAnd, JS8Call. What is missing is the integrated hardware kit that unifies them into a coherent, documented, reproducible system.
+Groundwave is in architecture and reference-design work. There is no released platform implementation. A separate repository contains an unqualified, pre-prototype FieldNode design. Reticulum, LXMF, and RNode are important integration candidates—not the platform definition.
 
-Groundwave is that kit.
+See the evidence-based [project state](PROJECT_STATE.md), intended [vision](VISION.md), adopted [doctrine](DOCTRINE.md), and [roadmap](ROADMAP.md).
 
-## What Groundwave Is Not
+## Stable abstraction
 
-Groundwave is not a new protocol, messaging app, or mesh routing algorithm. The software it runs on is built by others and we contribute upstream where we can. Groundwave is hardware, integration, documentation, and deployment standards.
+The platform is designed around five questions: who is the recipient, what is being communicated, how urgent is it, what degradation is acceptable, and what acknowledgment is required? The connective layer preserves intent, identity, policy, provenance, and security while carriage may change from live media to audio, images, text, acknowledgments, or a few authenticated bits.
 
-Groundwave is not a product. It is a reference design and a community. Individual units can be purchased as kits to support the project, but every design is open and anyone is free to build their own.
+```mermaid
+flowchart LR
+  A[Human intent] --> B[Communication envelope]
+  B --> C{Policy and capability selection}
+  C --> D[Opaque carriage]
+  C --> E[Explicit trusted translation]
+  D --> F[Recipient]
+  E --> F
+  F --> G[Acknowledgment evidence]
+```
 
-Groundwave is not going to save you. No communications system will. It is a tool that restores your ability to communicate when the conventional tools are taken away. What you do with that ability is up to you.
+No single protocol, vendor, carrier, cloud, radio, package, or application is mandatory. Ordinary relays forward opaque encrypted payloads whenever possible. Trusted gateways declare transformations and loss. Delivery is bounded; best effort does not authorize flooding or surveillance.
 
-## The System
+Start at the [documentation index](docs/index.md), [architecture](ARCHITECTURE.md), [threat model](THREAT_MODEL.md), [repository audit](docs/project/repository-audit.md), or [contribution guide](CONTRIBUTING.md).
 
-Groundwave is organized in four tiers:
-
-- **The Brick** — Handheld communicator. Your person, always with you.
-- **The Anchor** — Hardened base station. Your vehicle, shelter, or rally point.
-- **The Fieldnode** — Droppable solar-powered relay. Deployed and left.
-- **The Ghost** — Analog kit. Zero electronics. The layer below every other layer.
-
-All four tiers interoperate over a common channel plan and cryptographic identity system provided by Reticulum.
-
-## Principles
-
-1. Zero subscriptions. Zero infrastructure dependencies. Zero corporate gatekeepers.
-2. Stand on existing open-source projects. Do not reinvent.
-3. Graceful degradation: every capability has a fallback.
-4. Buildable by anyone with a soldering iron and patience.
-5. Zero trust from the ground up.
-6. Honest about limits.
-
-## Status
-
-Project Groundwave is in architecture and early prototyping. The Fieldnode is the first tier targeted for a shippable design.
-
-This is not a working product yet. It is a working plan.
-
-## Contributing
-
-See `CONTRIBUTING.md` and `GOVERNANCE.md` in this repository.
-
-## License
-
-- Hardware designs: CERN Open Hardware License v2 (Strongly Reciprocal)
-- Software: AGPL v3
-- Documentation: Creative Commons BY-SA 4.0
-
-## Contact
-
-Project is stewarded under a pseudonym. See `GOVERNANCE.md` for how to participate.
+`Groundwave` remains a provisional legacy working name. A rename is explicitly deferred.
