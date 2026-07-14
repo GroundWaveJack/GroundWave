@@ -4,7 +4,7 @@
 
 Groundwave is in founder-steward phase. Jack is the sole evidenced maintainer. Distributed maintainership, committees, fiscal sponsorship, a legal entity, and a nonprofit foundation are aspirations—not established arrangements.
 
-This describes the project''s current decision process, not a legal organization. The maintainer accepts or rejects changes through public repository records except when privacy, security, or conduct reports require confidential handling.
+This describes the project's current decision process, not a legal organization. The maintainer accepts or rejects changes through public repository records except when privacy, security, or conduct reports require confidential handling.
 
 ## Protected principles
 
@@ -24,7 +24,7 @@ Maintainers are added after sustained, technically sound, constructive contribut
 - **Maintainer:** has an explicitly documented scope and may accept changes within it. Jack currently holds this role for the repository.
 - **Decision owner:** named maintainer responsible for an RFC disposition or ADR acceptance. This is a temporary responsibility, not additional authority over people or plaintext.
 
-Until additional maintainers are appointed through a documented decision, one maintainer''s acceptance is the current merge threshold. That concentration is a project risk, not community consensus. Significant decisions remain public and reversible where practical.
+Until additional maintainers are appointed through a documented decision, one maintainer's acceptance is the current merge threshold. That concentration is a project risk, not community consensus. Significant decisions remain public and reversible where practical.
 
 The [code of conduct](CODE_OF_CONDUCT.md) applies. During founder stewardship, Jack handles reports. A future independent appeals path is desired but not yet available.
 

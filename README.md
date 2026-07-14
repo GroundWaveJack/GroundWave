@@ -4,7 +4,7 @@
 >
 > “The underlying medium changes. The human intent persists.”
 
-Groundwave explores how one human can securely reach another across whatever viable devices, paths, transports, relays, caches, and representations are available.
+Groundwave aims to help one human communicate with another across whatever viable devices, paths, transports, relays, caches, and representations are available, using protections declared by each profile.
 
 The promise is bounded: Groundwave cannot create connectivity, defeat physics, or guarantee delivery. It aims to make the best responsible use of available connectivity while respecting privacy, owner policy, regulation, energy, storage, bandwidth, and airtime fairness.
 
@@ -29,7 +29,7 @@ flowchart LR
   F --> G[Acknowledgment evidence]
 ```
 
-No single protocol, vendor, carrier, cloud, radio, package, or application is mandatory. Ordinary relays forward opaque encrypted payloads whenever possible. Trusted gateways declare transformations and loss. Delivery is bounded; best effort does not authorize flooding or surveillance.
+No single protocol, vendor, carrier, cloud, radio, package, or application is mandatory. Ordinary relays do not require plaintext; any plaintext carriage or access is explicit, visible, policy-authorized, and profile-constrained. Trusted gateways declare transformations and loss. Delivery is bounded; best effort does not authorize flooding or surveillance.
 
 Start at the [documentation index](docs/index.md), [architecture](ARCHITECTURE.md), [threat model](THREAT_MODEL.md), [repository audit](docs/project/repository-audit.md), or [contribution guide](CONTRIBUTING.md).
 

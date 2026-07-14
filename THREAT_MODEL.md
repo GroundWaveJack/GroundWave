@@ -46,7 +46,7 @@ A future design must prevent silent substitution, expose verification state, sco
 
 ## Translation and semantic loss
 
-Translation is opt-in, policy-bounded, and isolated. Proposed controls include least-privilege keys, per-operation authority, sandboxed parsers and codecs, input/output limits, no ambient message access, temporary-plaintext deletion, and receipts binding original and derived media types and digests, method, known loss, uncertainty, and retention.
+Translation is opt-in, policy-bounded, and isolated. Proposed controls include least-privilege keys, per-operation authority, sandboxed parsers and codecs, input/output limits, no ambient message access, and receipts binding original and derived media types and digests, method, known loss, uncertainty, and retention. Plaintext lifecycle policy must minimize memory and storage residence, prevent avoidable logs and backups, request zeroization where supported, and disclose that flash media, swap, crash dumps, compromised systems, and backups may retain copies.
 
 A receipt proves what a gateway claims it did, not subjective fidelity or gateway honesty. Unsupported semantics and downgrade below the minimum representation fail explicitly. Translators cannot become universal trusted intermediaries.
 

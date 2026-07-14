@@ -20,4 +20,4 @@ The core owns intent, policy, provenance, transformation authorization, delivery
 
 Delivery controls remain independent: expiration, hop budget, replica budget, priority, deadline, custody, acknowledgment, payload class, minimum acceptable representation, preferred relay, and confidentiality.
 
-Conformance will use schemas, canonical fixtures, policy tests, loss receipts, custody state-machine tests, adapter interoperability, and negative security cases. No conforming implementation exists today. Detailed documents begin at the [architecture index](docs/architecture/overview.md).
+Conformance will use schemas, canonical fixtures, policy tests, loss receipts, custody state-machine tests, adapter interoperability, and negative security cases. No conforming implementation exists today. Detailed documents begin at the [architecture index](../../architecture/overview.md).

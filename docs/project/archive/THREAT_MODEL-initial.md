@@ -37,4 +37,4 @@ Do not collect “user tracking.” Reachability observations are purpose-limite
 
 Threat-model conformance requires abuse cases, malformed-envelope tests, quota tests, replay and downgrade tests, custody failure injection, receipt verification, metadata review, dependency review, and independent security assessment before a release claim.
 
-Report vulnerabilities through [SECURITY.md](SECURITY.md), not a public issue.
+Report vulnerabilities through the current [security policy](../../../SECURITY.md), not a public issue.

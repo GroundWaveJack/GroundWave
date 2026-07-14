@@ -23,7 +23,7 @@ Five-volt module power and optional 3.3 V auxiliary power are independently swit
 7. **Safe to remove:** buses isolate and rails discharge below the specified threshold; the user receives confirmation.
 8. **Fault:** power is removed and remains latched off until the defined recovery action.
 
-Unexpected removal from Powered or Active is a tested fault, not supported hot swap. It must not corrupt host state, expose unsafe voltage, or automatically re-energize damaged hardware.
+Unexpected removal from Powered or Active is an unsupported fault case, not hot swap. Qualification must define bounded fault-containment objectives for host-state recovery, accessible voltage and stored energy, back-power, damaged-hardware re-energization, and residual risk; this concept does not claim those objectives are met.
 
 ## Mechanical and verification gaps
 
