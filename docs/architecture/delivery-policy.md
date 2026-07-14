@@ -17,3 +17,7 @@ Delivery dimensions remain independent:
 | Confidentiality | Who may access content and metadata? |
 
 A single TTL cannot represent these policies. Implementations must enforce local quotas and avoid turning priority into unlimited preemption.
+
+Routing answers how a carriage system reaches a next hop or destination. Groundwave's delivery overlay answers whether, when, in what representation, and under whose custody another attempt is permitted. Adapters must map each policy dimension with documented semantics, narrow it safely, or refuse it.
+
+Acknowledgment classes are distinct: profile acceptance proves only queuing; custody acceptance proves bounded retention responsibility; next-hop transfer proves authenticated receipt by that peer; endpoint receipt proves object receipt; representation acceptance proves validation of a derivative; and explicit human acknowledgment proves only the defined user action. Evidence must bind the event class, issuer, intent contract, object digest, and replay context.
