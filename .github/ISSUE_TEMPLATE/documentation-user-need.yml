@@ -1,0 +1,40 @@
+name: Documentation or user need
+description: Describe a task, missing explanation, accessibility barrier, or communication need.
+title: "docs: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Describe the need without personal data, private deployment details, credentials, or vulnerability information.
+  - type: textarea
+    id: need
+    attributes:
+      label: User need or task
+      description: Who is trying to do what, and why does the current material not support it?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Constraints and acceptable degradation
+      description: Include accessibility, connectivity, device, time, or representation constraints that matter.
+  - type: input
+    id: source
+    attributes:
+      label: Relevant page, revision, or search terms
+  - type: textarea
+    id: success
+    attributes:
+      label: What would a useful outcome enable?
+    validations:
+      required: true
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Is this about current behavior or future design?
+      options:
+        - Current documented behavior
+        - Proposed or future behavior
+        - Unsure
+    validations:
+      required: true

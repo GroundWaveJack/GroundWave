@@ -1,0 +1,7 @@
+exclude = [
+  "https://github.com/HarrietProject/Harriet/security",
+  "https://github.com/HarrietProject/Harriet/blob/main/"
+]
+exclude_path = ["docs/project/archive", "BRAIN_DUMP_INBOX.md", "FIELDNODE_SPEC_v0.md"]
+max_retries = 2
+retry_wait_time = 2

@@ -1,0 +1,10 @@
+config:
+  default: true
+  line-length: false
+  no-duplicate-heading:
+    siblings_only: true
+globs:
+  - "**/*.md"
+  - "!docs/project/archive/**"
+  - "!BRAIN_DUMP_INBOX.md"
+  - "!FIELDNODE_SPEC_v0.md"

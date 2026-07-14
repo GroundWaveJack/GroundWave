@@ -1,67 +1,32 @@
-# GOVERNANCE.md
+# Governance
 
-This document describes how decisions are made in Project Groundwave, how contributors become maintainers, and how the project is structured to resist capture, censorship, and single-point-of-failure collapse.
+## Current phase
 
-## 1. Current Phase
+Harriet, hosted in the canonical `HarrietProject/Harriet` repository, is in founder-steward phase. Jack is the sole evidenced maintainer. Distributed maintainership, committees, fiscal sponsorship, a legal entity, and a nonprofit foundation are aspirations—not established arrangements.
 
-Project Groundwave is currently in **Founder Steward** phase. A single pseudonymous steward is responsible for initial architecture, repository structure, and early decisions. This phase is explicitly temporary. The project is designed to transition to distributed governance as contributors join and demonstrate sustained engagement.
+This describes the project's current decision process, not a legal organization. The maintainer accepts or rejects changes through public repository records except when privacy, security, or conduct reports require confidential handling.
 
-## 2. How Decisions Are Made
+## Protected principles
 
-Decisions are categorized:
+- Pseudonymous contribution is allowed; ordinary participation does not require legal-name disclosure.
+- Copyleft intent, fork rights, public decisions, and resistance to exclusive sponsor control are retained.
+- No sponsor, vendor, or maintainer may make a centralized service mandatory.
+- Project roles grant scoped work and review responsibility, not access to contributor identities or message plaintext.
+- Use of the Harriet name follows the attribution and cultural-stewardship obligations in [WHY_HARRIET.md](WHY_HARRIET.md); the tribute is not permission to trivialize historical suffering.
 
-- **Architectural decisions** — These affect the system spec, threat model, tier definitions, core principles. During Founder Steward phase, these are made by the steward. Major architectural changes are discussed publicly in an issue or RFC before a decision is made.
-- **Implementation decisions** — These affect how a specific repository, subproject, or component is built. During Founder Steward phase, these are made by the steward. Once subproject maintainers exist, these will devolve to them.
-- **Community decisions** — Code of conduct enforcement, contributor disputes, governance changes. During Founder Steward phase, the steward decides. As the project matures, these will be handled by a governance committee.
+Routine reversible changes use pull requests. Significant architecture changes are recorded in architecture decision records (ADRs); broad, cross-repository, contested, or compatibility-breaking proposals use requests for comments (RFCs). Governance, licensing, naming, repository archival, and compatibility-breaking changes require an RFC and explicit maintainer decision. Harriet was adopted as the public name through [RFC 0001](docs/rfc/0001-adopt-harriet-name.md), and its controlled identifiers through [RFC 0003](docs/rfc/0003-complete-harriet-identifier-migration.md). Governance amendments require a public proposal and at least seven days for review. Discussion does not adopt an RFC: acceptance must name the decision owner, disposition, implementation conditions, and resulting ADRs or follow-up work.
 
-Every significant decision is documented. The `PROJECT_STATE.md` Decision Log records architectural decisions. Implementation decisions are recorded in repository-specific decision logs.
+Maintainers are added after sustained, technically sound, constructive contribution in a defined area. Future distributed governance must document role scope, removal, succession, conflict handling, and key custody before claiming operation.
 
-## 3. How Maintainers Are Added
+## Roles and acceptance
 
-A maintainer is a person who has demonstrated sustained, high-quality contribution to a specific area of the project.
+- **Contributor:** proposes issues, evidence, reviews, documentation, designs, or patches. A pseudonym is sufficient for ordinary participation.
+- **Reviewer:** provides non-binding review in an area of demonstrated experience. Review does not imply access or maintainer authority.
+- **Maintainer:** has an explicitly documented scope and may accept changes within it. Jack currently holds this role for the repository.
+- **Decision owner:** named maintainer responsible for an RFC disposition or ADR acceptance. This is a temporary responsibility, not additional authority over people or plaintext.
 
-The path:
+Until additional maintainers are appointed through a documented decision, one maintainer's acceptance is the current merge threshold. That concentration is a project risk, not community consensus. Significant decisions remain public and reversible where practical.
 
-1. Contribute to a subproject over time. Submit PRs, file issues, answer questions.
-2. Be proposed as a maintainer by an existing maintainer or by self-nomination after sustained contribution.
-3. Be confirmed by the steward (in Founder Steward phase) or by existing maintainers (in later phases).
+The [code of conduct](CODE_OF_CONDUCT.md) applies. During founder stewardship, Jack handles reports. A future independent appeals path is desired but not yet available.
 
-Maintainers have commit access to their subproject and can make implementation decisions in their domain.
-
-## 4. How The Project Resists Capture
-
-This section exists because the project's threat model includes state-level and corporate adversaries who may attempt to compromise, coerce, or capture the project.
-
-The project is structurally resistant to capture by design:
-
-- **Copyleft licenses.** CERN OHL v2-S, AGPL v3, and CC BY-SA 4.0 ensure that any fork remains open. A hostile entity cannot take Groundwave private.
-- **Distributed contributors.** As the maintainer base grows, no single person's compromise affects the project's continuity. Any maintainer who becomes unresponsive, hostile, or coerced can have commit access revoked.
-- **Documented architecture.** The `PROJECT_STATE.md`, system specification, and decision log are designed so that any reasonably skilled contributor could continue the project without the steward.
-- **No single private signing key.** As the project matures, release signing will be distributed across multiple maintainers. Compromise of any single key does not compromise releases.
-- **Fork rights explicit.** If the current maintainers go hostile or unresponsive, any community member may fork the project. This right is guaranteed by license and documented here. A legitimate fork is one that carries forward the principles described in `PROJECT_STATE.md`.
-
-## 5. The Legal Entity
-
-Project Groundwave operates under fiscal sponsorship during Founder Steward phase. This provides legal shelter for the project without requiring the steward to form their own entity immediately.
-
-Long-term, the project will transition to an independent nonprofit foundation with a three-member board. At least two board members must be active contributors. No board member may hold majority control. Board replacement requires documented process.
-
-Corporate contributions and sponsorships are accepted. Corporate control is not. No corporate sponsor may direct project architecture, require exclusivity, or gate features.
-
-## 6. The Pseudonym
-
-The current steward operates under a pseudonym. This is a deliberate decision, not an accident. The pseudonym is legally a persona of a real person who has fiduciary responsibility for the project, but the real identity is not part of the public project.
-
-Contributors may also operate under pseudonyms. This is explicitly supported. Commit signing with a pseudonymous GPG key is acceptable. The project will never require identification of contributors beyond what is necessary for code contribution.
-
-## 7. Code of Conduct
-
-Project Groundwave uses the Contributor Covenant version 2.1. See `CODE_OF_CONDUCT.md`.
-
-Enforcement: During Founder Steward phase, the steward enforces the code of conduct. Enforcement actions are documented. Appeals are heard by the steward and, when the community is large enough to support one, by a rotating community moderation group.
-
-## 8. Amendments
-
-This document may be amended by the steward during Founder Steward phase. Amendments are proposed publicly in an issue with at least a 7-day review period. Amendments after Founder Steward phase require maintainer consensus or governance committee vote as structure evolves.
-
-Changes to this document's core protections — the copyleft licensing, the fork rights, the rejection of corporate control — require a higher bar: public RFC, 30-day minimum review, and broad maintainer consent. These protections are the foundation of the project's resistance to capture and are not casual amendments.
+Changes to pseudonymous participation, copyleft intent, fork rights, or resistance to exclusive corporate control require a public RFC with at least 30 days for comment. Once multiple maintainers exist, these changes also require broad maintainer consent. This document makes no claim that such a review community currently exists.

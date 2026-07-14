@@ -1,0 +1,36 @@
+name: Documentation or implementation defect
+description: Report reproducible behavior that contradicts a current artifact.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include vulnerabilities, credentials, private deployments, or personal data.
+  - type: input
+    id: revision
+    attributes:
+      label: Repository revision or document version
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and supporting specification
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction and environment
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security, privacy, safety, or interoperability impact
