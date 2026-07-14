@@ -12,7 +12,7 @@
 
 ## Decision
 
-Groundwave must operate across heterogeneous paths. Defining it as a Reticulum kit prevents principled integration elsewhere. Groundwave therefore owns a connective intent, policy, provenance, adapter, and conformance layer. Protocol-specific behavior remains in profiles. Existing Reticulum experiments remain valid inputs.
+Harriet must operate across heterogeneous paths. Defining it as a Reticulum kit prevents principled integration elsewhere. Harriet therefore owns a connective intent, policy, provenance, adapter, and conformance layer. Protocol-specific behavior remains in profiles. Existing Reticulum experiments remain valid inputs.
 
 ## Consequences and limitations
 

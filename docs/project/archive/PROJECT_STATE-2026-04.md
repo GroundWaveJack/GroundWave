@@ -1,25 +1,25 @@
 # PROJECT_STATE.md
 
 **Last updated:** Initial draft, April 2026
-**Purpose:** This is the canonical state document for Project Groundwave. It is the single source of truth for "where the project stands right now." It is read at the start of every working session and updated when anything material changes.
+**Purpose:** This is the canonical state document for the pre-Harriet project. It is the single source of truth for "where the project stands right now." It is read at the start of every working session and updated when anything material changes.
 
 ---
 
-## 1. What Groundwave Is
+## 1. What the pre-Harriet project Is
 
-Project Groundwave is an open-source, hardware-focused emergency communications and survival system built for scenarios in which conventional communications infrastructure is unavailable, compromised, or actively hostile. It is designed to function without subscriptions, without corporate dependencies, and without any single point of failure.
+The pre-Harriet project is an open-source, hardware-focused emergency communications and survival system built for scenarios in which conventional communications infrastructure is unavailable, compromised, or actively hostile. It is designed to function without subscriptions, without corporate dependencies, and without any single point of failure.
 
-Groundwave is a **hardware contribution lane** within a larger open-source communications ecosystem. It explicitly does not reinvent software that already exists. It stands on the shoulders of projects like Reticulum, RNode, Sideband, LXMF, LXST, Haven MANET, Briar, OsmAnd, and JS8Call. Groundwave's contribution is the integrated hardware kit, the system architecture that unifies these tools, the deployment standard, and the documentation that makes this stack accessible to a non-expert builder.
+The pre-Harriet project is a **hardware contribution lane** within a larger open-source communications ecosystem. It explicitly does not reinvent software that already exists. It stands on the shoulders of projects like Reticulum, RNode, Sideband, LXMF, LXST, Haven MANET, Briar, OsmAnd, and JS8Call. The pre-Harriet project's contribution is the integrated hardware kit, the system architecture that unifies these tools, the deployment standard, and the documentation that makes this stack accessible to a non-expert builder.
 
 ## 2. The Three Scenarios
 
-Groundwave is designed to operate across three threat environments:
+The pre-Harriet project is designed to operate across three threat environments:
 
 1. **Collapse** — Grid down, infrastructure gone, purely peer-to-peer RF.
 2. **Compromised Infrastructure** — Grid up, internet up, neither trusted. Surveillance, censorship, DPI, IMSI catchers.
 3. **Hybrid** — Partial infrastructure. System automatically selects most resilient/covert path.
 
-Reticulum's transport-agnostic architecture handles most of the switching between scenarios. Groundwave's hardware provides every transport Reticulum needs.
+Reticulum's transport-agnostic architecture handles most of the switching between scenarios. The pre-Harriet project's hardware provides every transport Reticulum needs.
 
 ## 3. The Four-Tier Architecture
 
@@ -54,16 +54,16 @@ Explicitly eliminated: Iridium, Starlink, cellular, Zigbee, Z-Wave, LORAN-C, GOE
 6. **Sovereignty over convenience.** If something is easier to use but creates a dependency, we choose the harder path.
 7. **Honest about limits.** EMP protection is not mil-spec. HF TX is not possible from the Brick. Satellite is not part of the system. The project is credible because it does not overclaim.
 
-## 6. The Groundwave Channel Plan (v1.0 Draft)
+## 6. The pre-Harriet project Channel Plan (v1.0 Draft)
 
 LoRa / RNode (915 MHz US):
 - CH 0 — OPEN BEACON (unencrypted position)
-- CH 1 — GROUNDWAVE NET (encrypted mesh primary)
+- CH 1 — HARRIET NET (encrypted mesh primary)
 - CH 2 — RELAY ONLY (repeater traffic)
 - CH 3 — DIRECT (encrypted point-to-point)
 - CH 9 — EMERGENCY (unencrypted broadcast)
 
-MANET WiFi: SSID "GROUNDWAVE", Reticulum encryption, auto-join.
+MANET WiFi: SSID "HARRIET", Reticulum encryption, auto-join.
 
 Voice fallback:
 - UHF 462.675 MHz (GMRS Ch 20, FRS interop)
@@ -125,4 +125,4 @@ Architectural decisions that have been made and should not be relitigated withou
 - Beechat Network Systems / NATO DIANA Reticulum work — potential defense capture of the protocol
 - Meshtastic / Reticulum interop progress
 - RK3576 maturity as a middle-ground SoC option
-- FuriLabs FLX1s trajectory (not a Groundwave component but adjacent)
+- FuriLabs FLX1s trajectory (not a pre-Harriet project component but adjacent)

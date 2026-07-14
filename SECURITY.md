@@ -4,7 +4,7 @@ Harriet has no supported release or certified security profile. Reports about re
 
 ## Report privately
 
-Use GitHub private vulnerability reporting for the affected `GroundWaveJack` repository when available. Do not publish exploit details, personal data, precise deployments, credentials, keys, radio identifiers, or location information.
+Use GitHub private vulnerability reporting for the affected `HarrietProject` repository when available. Do not publish exploit details, personal data, precise deployments, credentials, keys, radio identifiers, or location information.
 
 If private reporting is unavailable, open a minimal public issue requesting a private channel. Name only the affected repository and omit sensitive detail. Pseudonymous and encrypted reports are welcome when the channel supports them. Never send live credentials or keys.
 

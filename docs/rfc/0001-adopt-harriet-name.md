@@ -14,7 +14,7 @@
 
 ## Summary and user need
 
-Adopt **Harriet** as the public name of the project and adaptive communications platform, in honor of Harriet Tubman. Groundwave becomes the historical name and remains in legacy repository identifiers during a staged migration.
+Adopt **Harriet** as the public name of the project and adaptive communications platform, in honor of Harriet Tubman. The pre-Harriet identifier remains part of the decision history; its later current-state removal is governed by [RFC 0003](0003-complete-harriet-identifier-migration.md).
 
 The project needs a name that ordinary people can understand and remember, that expresses finding another way through when official or expected paths are closed, and that carries a clear public-interest obligation rather than sounding like an invented technology brand.
 
@@ -39,7 +39,7 @@ No descendant, museum, historical organization, government agency, or National P
 
 ## Alternatives and upstream path
 
-- **Groundwave:** retained as historical context and legacy repository naming, but it overemphasizes one physical transport class.
+- **Former working name:** retained as neutral historical context, but it overemphasized one physical transport class.
 - **Chaski:** carries an excellent relay-messenger meaning but requires explanation for much of the intended audience.
 - **Shannon:** honors foundational communications science but is widely used and does not express the human mission as directly.
 - **Generic pathfinding names:** understandable but crowded and easy to mistake for navigation products.
@@ -56,32 +56,31 @@ Ordinary-person usability becomes an explicit architectural requirement. A futur
 
 ## Compatibility, migration, and rollback
 
-1. **Public-document stage:** current normative documents use Harriet for the project and platform. Groundwave remains in historical records and legacy identifiers.
+1. **Public-document stage:** current normative documents use Harriet for the project and platform while controlled identifiers are inventoried.
 2. **Identifier review stage:** inventory repository, organization, package, executable, module, crate, domain, protocol, compatibility, signing, and update identifiers. Perform cultural, availability, legal, accessibility, and migration review.
 3. **Separately approved migrations:** rename only identifiers covered by an explicit decision, with redirects, compatibility periods, rollback steps, and preserved history.
 
-This RFC does not rename `GroundWaveJack`, `GroundWave`, any `groundwave-*` repository, local paths, branches, remotes, packages, executables, domains, modules, crates, or protocol identifiers.
+This RFC did not itself rename accounts, repositories, local paths, branches, remotes, packages, executables, domains, modules, crates, or protocol identifiers. RFC 0003 later authorized the bounded controlled-identifier migration.
 
 A rollback may restore a different public name if material cultural harm, collision, legal advice, or sustained confusion makes Harriet unsuitable. Rollback must preserve this RFC, ADR 0010, and the reason for the change. It must not rewrite archives or claim the prior decision never occurred.
 
 ## Conformance and acceptance criteria
 
 - Current entry points name Harriet and link the explanation.
-- Historical files remain byte-for-byte unchanged.
-- Remaining uses of Groundwave are historical references, repository identifiers, migration explanations, or superseded decision records.
+- Historical rationale remains available in Git history and the pre-migration tag.
 - Harriet is not presented as implemented, released, certified, universally lawful, or guaranteed to deliver.
-- No package, executable, domain, repository, organization, crate, module, or protocol identifier is represented as selected or available.
+- At initial adoption, no controlled technical identifier was represented as selected or available; RFC 0003 later resolved the account and repository convention without claiming package, domain, protocol, or external-contract clearance.
 - Documentation, links, spelling, whitespace, YAML, and identity checks pass or any unavailable check is reported honestly.
 
 ## Rollout evidence and documentation impact
 
-The initial rollout is confined to the existing draft documentation pull request. It adds [WHY_HARRIET.md](../../WHY_HARRIET.md), [ADR 0010](../adr/0010-adopt-harriet-as-public-project-name.md), this RFC, decision-log entries, and consistent current terminology. Repository and account names remain unchanged.
+The initial rollout was confined to the draft documentation pull request. It added [WHY_HARRIET.md](../../WHY_HARRIET.md), [ADR 0010](../adr/0010-adopt-harriet-as-public-project-name.md), this RFC, decision-log entries, and consistent public terminology. RFC 0003 records the subsequent identifier migration.
 
 ## Open questions
 
-- Which repository, organization, domain, package, executable, crate, module, and protocol identifiers are usable and defensible?
+- Which domain, package, executable, crate, module, protocol, and external-contract identifiers are usable and defensible?
 - What cultural or historical review should precede wider public launch and visual identity work?
-- How should legacy Groundwave links and compatibility identifiers be preserved if repositories are later renamed?
+- Which compatibility redirects or aliases are safe for externally published identifiers?
 - Which acceptance tests demonstrate that ordinary people can participate without command-line or networking expertise?
 
 ## Disposition

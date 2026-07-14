@@ -7,7 +7,6 @@ extend-exclude = [
 AREDN = "AREDN"
 BPSec = "BPSec"
 BPv7 = "BPv7"
-Groundwave = "Groundwave"
 Harriet = "Harriet"
 labgrid = "labgrid"
 LibreMesh = "LibreMesh"

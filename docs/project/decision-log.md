@@ -12,8 +12,9 @@
 | BPv7 profile | Proposed evaluation | [ADR 0006](../adr/0006-bpv7-for-delay-tolerant-delivery.md) |
 | OpenWrt first router target | Proposed target | [ADR 0007](../adr/0007-openwrt-first-router-target.md) |
 | Hardware is reference design | Adopted | [ADR 0008](../adr/0008-hardware-embodiments-are-reference-designs.md) |
-| Groundwave name provisional | Superseded | [ADR 0009](../adr/0009-groundwave-name-is-provisional.md) |
-| Harriet public project name | Adopted; technical identifiers unresolved | [RFC 0001](../rfc/0001-adopt-harriet-name.md), [ADR 0010](../adr/0010-adopt-harriet-as-public-project-name.md) |
+| Former working name provisional | Superseded | [ADR 0009](../adr/0009-former-name-was-provisional.md) |
+| Harriet public project name | Adopted | [RFC 0001](../rfc/0001-adopt-harriet-name.md), [ADR 0010](../adr/0010-adopt-harriet-as-public-project-name.md) |
+| Harriet controlled identifiers | Adopted migration; history preserved | [RFC 0003](../rfc/0003-complete-harriet-identifier-migration.md), [ADR 0011](../adr/0011-complete-harriet-identifier-migration.md) |
 
 Fiscal sponsorship, a nonprofit entity, board structure, exact channel plans, fixed hardware SKUs, FieldNode-first delivery, and mandatory zero-subscription rules are not established facts. They require evidence or new decisions.
 

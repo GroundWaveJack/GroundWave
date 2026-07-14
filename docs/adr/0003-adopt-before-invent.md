@@ -12,7 +12,7 @@
 
 ## Decision
 
-Groundwave will adopt, profile, integrate, or contribute upstream before creating a protocol or fork. New work requires a demonstrated gap, layer analysis, interoperability plan, maintenance owner, and exit criteria.
+Harriet will adopt, profile, integrate, or contribute upstream before creating a protocol or fork. New work requires a demonstrated gap, layer analysis, interoperability plan, maintenance owner, and exit criteria.
 
 ## Consequences and limitations
 

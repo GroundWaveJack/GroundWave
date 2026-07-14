@@ -28,7 +28,7 @@ Do not organize this file. It is deliberately messy. Only add and occasionally p
 
 **Notes to think about later, not captured above:**
 
-- NBEMS interop (ham radio emergency messaging protocol suite). Groundwave should interop with fldigi/flmsg, not replace.
+- NBEMS interop (ham radio emergency messaging protocol suite). The pre-Harriet project should interoperate with fldigi/flmsg, not replace it.
 - LoRaWAN vs Reticulum-over-LoRa distinction — worth a clarifying section in spec so people don't confuse.
 - Optical signaling (laser, heliograph, morse flashlight) — the Ghost analog kit should include at least one optical signaling tool.
 - GPS jamming/spoofing resilience — celestial navigation as the ultimate fallback. Analog kit should have a sighting compass and nautical almanac.

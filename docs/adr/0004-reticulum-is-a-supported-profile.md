@@ -16,7 +16,7 @@ Reticulum is the adopted target for the first integration profile. Reticulum, LX
 
 ## Consequences and limitations
 
-Existing experiments retain a migration path, while Groundwave must avoid silently approximating delivery, identity, or acknowledgment requirements that the profile cannot express.
+Existing experiments retain a migration path, while Harriet must avoid silently approximating delivery, identity, or acknowledgment requirements that the profile cannot express.
 
 ## Review trigger
 

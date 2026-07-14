@@ -1,6 +1,6 @@
 exclude = [
-  "https://github.com/GroundWaveJack/GroundWave/security",
-  "https://github.com/GroundWaveJack/GroundWave/blob/main/"
+  "https://github.com/HarrietProject/Harriet/security",
+  "https://github.com/HarrietProject/Harriet/blob/main/"
 ]
 exclude_path = ["docs/project/archive", "BRAIN_DUMP_INBOX.md", "FIELDNODE_SPEC_v0.md"]
 max_retries = 2

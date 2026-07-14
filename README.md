@@ -35,4 +35,4 @@ No single protocol, vendor, carrier, cloud, radio, package, or application is ma
 
 Start at the [documentation index](docs/index.md), [architecture](ARCHITECTURE.md), [threat model](THREAT_MODEL.md), [repository audit](docs/project/repository-audit.md), or [contribution guide](CONTRIBUTING.md).
 
-Harriet is the adopted public name. Groundwave is the former public name and remains in legacy repository identifiers. This does not rename `GroundWaveJack/GroundWave` or settle any package, executable, domain, module, crate, or protocol identifier; see [RFC 0001](docs/rfc/0001-adopt-harriet-name.md).
+Harriet is the adopted public name and `HarrietProject/Harriet` is the canonical repository. [RFC 0003](docs/rfc/0003-complete-harriet-identifier-migration.md) records the controlled identifier migration; it does not claim package, domain, trademark, certification, or protocol clearance.

@@ -12,6 +12,6 @@ For Harriet, that means designing toward an experience where a person can instal
 
 The name creates permanent stewardship obligations. The project must explain the tribute plainly, keep historical claims precise, and listen seriously when historians or affected communities identify harm. It must never use Tubman's likeness as a mascot, trivialize slavery, gamify the Underground Railroad, turn historical terms into cute product vocabulary, or imply endorsement by Tubman's descendants, historical organizations, museums, or the National Park Service.
 
-Harriet is the public project and platform name. `GroundWaveJack/GroundWave` remains the legacy repository identifier during a staged migration. Package, executable, domain, module, crate, organization, repository, and protocol identifiers remain unresolved; the naming decision is not trademark or availability clearance.
+Harriet is the public project and platform name, and `HarrietProject/Harriet` is the canonical repository. The controlled identifier migration does not establish trademark, package, domain, protocol, or certification clearance.
 
-See [RFC 0001](docs/rfc/0001-adopt-harriet-name.md) and [ADR 0010](docs/adr/0010-adopt-harriet-as-public-project-name.md) for the governed decision and its limits.
+See [RFC 0001](docs/rfc/0001-adopt-harriet-name.md), [RFC 0003](docs/rfc/0003-complete-harriet-identifier-migration.md), and [ADR 0011](docs/adr/0011-complete-harriet-identifier-migration.md) for the governed decisions and their limits.

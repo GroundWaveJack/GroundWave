@@ -6,14 +6,14 @@
 
 ## Public name
 
-Harriet is the adopted public project and platform name, in honor of Harriet Tubman. Groundwave remains the historical name and part of legacy repository identifiers. The decision changes documentation and governance, not implementation status or external identifiers. See [Why Harriet](WHY_HARRIET.md) and [RFC 0001](docs/rfc/0001-adopt-harriet-name.md).
+Harriet is the adopted public project and platform name, in honor of Harriet Tubman. The canonical controlled identifiers now follow the Harriet convention. This naming migration does not change implementation status. See [Why Harriet](WHY_HARRIET.md) and [RFC 0003](docs/rfc/0003-complete-harriet-identifier-migration.md).
 
 ## What exists
 
-- Eight public repositories owned by `GroundWaveJack`.
+- Eight public repositories owned by `HarrietProject`.
 - This canonical documentation and governance repository.
 - Early architecture, doctrine, threat-model, and development documents.
-- A separate `groundwave-fieldnode` repository containing pre-prototype hardware documentation and no published test evidence.
+- A separate `harriet-fieldnode` repository containing pre-prototype hardware documentation and no published test evidence.
 - No platform software, released package, qualified hardware, production service, or active federation demonstrated in repository evidence.
 
 ## Adopted and under design
@@ -28,4 +28,4 @@ City-scale federation, automatic representation conversion, opportunistic phone 
 
 Claims advance through reference design, prototype, tested, qualified, and released only with versioned artifacts, reproducible procedures, recorded results, and limitations.
 
-Known blockers include incomplete canonical licensing, unresolved identifier and availability review, absent schemas and fixtures, no independent security review, no hardware measurement campaign, and contradictory satellite repository descriptions. See the [repository audit](docs/project/repository-audit.md).
+Known blockers include incomplete canonical licensing, unresolved package and domain availability, absent schemas and fixtures, no independent security review, no hardware measurement campaign, and contradictory satellite repository descriptions. See the [repository audit](docs/project/repository-audit.md).

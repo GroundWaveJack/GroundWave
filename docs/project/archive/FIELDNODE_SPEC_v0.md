@@ -1,6 +1,6 @@
 # Fieldnode Specification v0.1 (DRAFT)
 
-The Fieldnode is the first Groundwave tier targeted for a shippable design. It is deliberately the simplest device in the system.
+The Fieldnode was the first tier the pre-Harriet project targeted for a shippable design. It is deliberately the simplest device in the system.
 
 ## Purpose
 
@@ -59,7 +59,7 @@ A Fieldnode is a solar-powered, weatherproof Reticulum relay. It is dropped, str
 
 - **Flash RNode firmware** (Qvist maintained) via `rnodeconf --autoinstall`
 - **Configuration:** TNC mode disabled, transport node mode enabled
-- **Channel:** Groundwave CH 2 (relay) and CH 1 (mesh) participation per channel plan
+- **Channel:** pre-Harriet channel 2 (relay) and channel 1 (mesh) participation per channel plan
 - **Identity:** Generated at first boot, recorded on the laminated serial card
 
 ## Build Time Estimate (v0.1 — to be validated)
@@ -85,7 +85,7 @@ A v1.0 Fieldnode spec is achieved when:
 
 - Three independent builders, working only from this document, have produced a working Fieldnode.
 - At least one Fieldnode has operated unattended outdoors for 30 days without intervention.
-- The unit has demonstrably relayed Reticulum traffic for other Groundwave or compatible nodes.
+- The unit has demonstrably relayed Reticulum traffic for other project or compatible nodes.
 - The build guide, CAD files, and BOM are in the public repository under the correct licenses.
 
 ## Known Open Questions
