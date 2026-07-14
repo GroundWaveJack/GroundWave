@@ -4,6 +4,7 @@ Dates are intentionally absent until evidence supports scheduling.
 
 ## Now — establish a trustworthy specification
 
+- Maintain the Harriet public-name explanation and stewardship obligations; complete cultural, accessibility, availability, legal, and identifier review before any live migration.
 - Publish terminology, doctrine, threat model, ADR/RFC process, repository map, and documentation checks.
 - Define protocol-neutral communication-envelope and translation-receipt schemas.
 - Reconcile satellite repository descriptions without deleting history.
@@ -11,6 +12,7 @@ Dates are intentionally absent until evidence supports scheduling.
 
 ## Next — prove the connective layer
 
+- Define and test an accessible ordinary-user intent flow that does not require command-line or networking expertise.
 - Build test fixtures before production implementations.
 - Profile Reticulum/LXMF and BPv7/BPSec against the same intent and delivery cases.
 - Demonstrate opaque relay, bounded cache, authenticated custody, and loss-declared derivation in a lab.

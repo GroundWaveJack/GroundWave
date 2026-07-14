@@ -1,6 +1,6 @@
 # Contributing
 
-Groundwave welcomes pseudonymous contributors. Do not include legal names, private contact data, credentials, precise private deployments, or unnecessary radio identifiers. Contributions are reviewed on technical merit and conduct.
+Harriet welcomes pseudonymous contributors and expects contributors to follow the attribution and stewardship commitments in [WHY_HARRIET.md](WHY_HARRIET.md). Do not include legal names, private contact data, credentials, precise private deployments, or unnecessary radio identifiers. Contributions are reviewed on technical merit and conduct.
 
 Issues, reviews, measurements, design discussion, test evidence, and draft patches are welcome. Open an issue or RFC before substantial new architecture, protocols, repositories, or hardware requirements.
 

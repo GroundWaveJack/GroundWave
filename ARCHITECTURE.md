@@ -2,11 +2,15 @@
 
 **State:** architecture under design; no conforming implementation exists
 
-Groundwave is a connective semantic layer between human intent and independently evolving carriage systems. It is not a universal router, identity provider, translator, or mandatory runtime.
+Harriet is a connective semantic layer between human intent and independently evolving carriage systems. It is not a universal router, identity provider, translator, or mandatory runtime.
+
+## Ordinary-user requirement
+
+An eventual ordinary user must be able to install or download Harriet, identify who must be reached, and express simple privacy, urgency, acceptable-degradation, and acknowledgment preferences without command-line or networking expertise. Technical profile selection belongs underneath that experience. No conforming interface currently exists.
 
 ## Canonical model
 
-1. **Application and experience:** captures recipient, content, urgency, permitted transformation, minimum useful representation, confidentiality, and required evidence.
+1. **Application and experience:** enables an ordinary person to identify who must be reached and express simple privacy, urgency, permitted degradation, and acknowledgment preferences; technical profiles remain underneath and must not require command-line or networking expertise. This layer captures recipient, content, urgency, permitted transformation, minimum useful representation, confidentiality, and required evidence.
 2. **Identity and authorization:** keeps human, device, service, and group principals distinct and binds external profile identifiers with explicit scope.
 3. **Intent contract and payload manifest:** integrity-protects sender-authorized policy and object digests. Relays cannot rewrite it.
 4. **Local planning context:** holds sensitive, expiring capabilities, reachability observations, resource state, path estimates, and trust preferences. It is not globally authoritative.

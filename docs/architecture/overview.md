@@ -2,7 +2,7 @@
 
 **State:** Architecture under design; not implemented. Adopted constraints are recorded in [doctrine](../../DOCTRINE.md) and [ADRs](../adr/).
 
-Groundwave is a connective layer between human intent and independently evolving carriage systems. Endpoints create communication envelopes; planners choose policy-compliant paths and representations; adapters map to external transports; relays and caches contribute bounded resources; recipients return evidence appropriate to the requested acknowledgment.
+Harriet is a connective layer between human intent and independently evolving carriage systems. Endpoints create communication envelopes; planners choose policy-compliant paths and representations; adapters map to external transports; relays and caches contribute bounded resources; recipients return evidence appropriate to the requested acknowledgment.
 
 The logical core is a set of contracts, not a required monolith: intent authoring, local policy evaluation, planning, representation, profile adaptation, carriage, bounded relay or custody, and evidence verification may be deployed separately.
 

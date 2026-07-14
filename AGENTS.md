@@ -1,6 +1,6 @@
-# Groundwave repository operating contract
+# Harriet repository operating contract
 
-This repository is canonical for Groundwave direction, platform architecture, governance, and cross-repository standards.
+This repository is canonical for Harriet direction, platform architecture, governance, and cross-repository standards.
 
 ## Identity boundary
 
@@ -29,7 +29,7 @@ Hardware qualification states—Reference, Qualified, Compatible, Community-test
 - Preserve history and record superseded decisions in the decision log or an ADR.
 - Prefer open standards and upstream contributions; justify new protocols or forks through an RFC.
 - Keep vision, doctrine, architecture, current implementation, and roadmap separate.
-- Use `Groundwave` as the provisional legacy name; do not select a replacement in routine work.
+- Use `Harriet` as the adopted public project name. Preserve Groundwave as the historical name and `GroundWave` or `groundwave-*` as legacy identifiers until separately approved migrations.
 - Do not change licenses, core governance protections, repository names, or hardware requirements without required evidence and review.
 - Hardware claims require datasheets or measurements. Commercial SKUs belong in a qualified BOM or procurement manifest, not permanent requirements.
 - Ordinary relays handle opaque protected payloads. Trusted translation is explicit, bounded, and auditable.
@@ -44,4 +44,4 @@ Hardware qualification states—Reference, Qualified, Compatible, Community-test
 
 ## Stop conditions
 
-Stop for maintainer direction before renaming or archiving repositories, choosing a final name, changing licenses or core governance protections, deleting or rewriting history, making legal claims, or materially changing hardware requirements without evidence.
+Stop for maintainer direction before renaming or archiving repositories, changing the adopted public name, migrating live identifiers, changing licenses or core governance protections, deleting or rewriting history, making legal claims, or materially changing hardware requirements without evidence.

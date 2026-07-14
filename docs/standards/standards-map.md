@@ -4,7 +4,7 @@
 
 The posture vocabulary is normative for this map:
 
-- **OWN:** specify only the connective semantics that remain Groundwave's responsibility.
+- **OWN:** specify only the connective semantics that remain Harriet's responsibility.
 - **PROFILE:** constrain and map an existing standard or project without claiming ownership of it.
 - **INTEGRATE:** connect through a documented adapter or supported interface.
 - **PARTNER:** coordinate only after mutual acknowledgement; until then, a project is a partnership candidate.
@@ -13,9 +13,9 @@ The posture vocabulary is normative for this map:
 
 Each compatibility claim needs an owned artifact (profile, adapter, fixture, or test report), a maturity state, and reproducible evidence. Candidate names alone are not evidence.
 
-| Area | Posture | Candidates | Groundwave responsibility |
+| Area | Posture | Candidates | Harriet responsibility |
 | --- | --- | --- | --- |
-| Intent, policy, provenance | OWN | Groundwave schemas and receipts | Specify minimally and test across profiles |
+| Intent, policy, provenance | OWN | Harriet schemas and receipts | Specify minimally and test across profiles |
 | Low-bandwidth messaging | PROFILE | Reticulum, LXMF, RNode, Sideband | Adopted profile target under design; own mapping and fixtures |
 | Disruption tolerance | PROFILE / INTEGRATE | BPv7, BPSec, DTN implementations | Evaluate security and custody mappings |
 | Local routing and mesh | INTEGRATE | Babel, 802.11s, batman-adv | Use at their correct layer |

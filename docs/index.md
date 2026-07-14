@@ -1,6 +1,7 @@
 # Documentation index
 
 - [Project state](../PROJECT_STATE.md), [vision](../VISION.md), [doctrine](../DOCTRINE.md), and [roadmap](../ROADMAP.md)
+- [Why Harriet](../WHY_HARRIET.md), [name-adoption RFC](rfc/0001-adopt-harriet-name.md), and [terminology and migration](project/terminology-and-rename.md)
 - [Architecture overview](architecture/overview.md) and [threat model](../THREAT_MODEL.md)
 - [Hardware embodiments](hardware/embodiments.md) and [qualification](hardware/qualification-model.md)
 - [Integration profiles](integrations/reticulum.md) and [standards strategy](standards/standards-map.md)
@@ -11,7 +12,7 @@
 
 ## Choose a path
 
-- **Understand the project:** read project state, vision, doctrine, then architecture.
+- **Understand the project:** read Why Harriet, project state, vision, doctrine, then architecture.
 - **Evaluate a claim:** check its glossary state, current status, conformance evidence, and known risks.
 - **Propose a change:** use the contribution guide and decision log; start an RFC before cross-cutting design work.
 - **Implement or test:** use the testing strategy, profile conformance requirements, and release gates.

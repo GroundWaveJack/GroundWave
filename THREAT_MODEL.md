@@ -6,7 +6,7 @@
 
 This model covers the intended connective layer, endpoints, relays, caches, custody, trusted translators, profiles, updates, and reference hardware. External protocols retain their own threat models; profiles must declare differences.
 
-Groundwave aims to protect content, intent, identity bindings, provenance, resources, and delivery evidence. It cannot guarantee a path, delivery, anonymity, traffic-analysis resistance, safe endpoints, universal legal operation, or faithful lossy transformation. A global observer, compromised endpoint, coerced gateway, or physical capture can defeat important goals.
+Harriet aims to protect content, intent, identity bindings, provenance, resources, and delivery evidence. It cannot guarantee a path, delivery, anonymity, traffic-analysis resistance, safe endpoints, universal legal operation, or faithful lossy transformation. A global observer, compromised endpoint, coerced gateway, or physical capture can defeat important goals.
 
 ## Assets and harm
 

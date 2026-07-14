@@ -1,6 +1,6 @@
 # Support
 
-Groundwave is early-stage and has no released product or emergency support service. Do not rely on it for safety-critical communication.
+Harriet is architecture under design and has no released product or emergency support service. Do not rely on it for safety-critical communication.
 
 - Use GitHub Discussions, when enabled, for design and usage questions.
 - Use issues for reproducible documentation defects and approved implementation work.

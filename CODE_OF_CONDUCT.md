@@ -1,6 +1,6 @@
 # Code of conduct
 
-Groundwave is committed to a respectful, technically rigorous community where pseudonymous participation is first-class.
+Harriet is committed to a respectful, technically rigorous community where pseudonymous participation is first-class.
 
 Be constructive, respect boundaries, separate people from technical claims, disclose conflicts, credit work, and make room for different experience levels and access needs. Harassment, threats, doxxing, discriminatory conduct, sexualized attention, impersonation, deliberate privacy invasion, and encouragement of unsafe or unlawful operation are unacceptable.
 

@@ -1,6 +1,6 @@
 # Security policy
 
-Groundwave has no supported release or certified security profile. Reports about repository content, specifications under design, or related prototypes are welcome.
+Harriet has no supported release or certified security profile. Reports about repository content, specifications under design, or related prototypes are welcome.
 
 ## Report privately
 
