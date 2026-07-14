@@ -11,6 +11,8 @@ Working branch: docs/platform-reframe
 Draft pull request: #1 targeting main
 Required Git identity: Jack <groundwavejack@users.noreply.github.com>
 
+This is an execution task, not a reconnaissance or review-only pass. After preflight and reading, you MUST create the requested RFC and consistency edits, validate them, commit them, push the branch, and update draft PR #1. Do not stop merely because the source documents already exist or because no separate findings were supplied.
+
 This is a bounded architecture, RFC, and test-design pass. Do not rename the GitHub account, repository, local directory, branch, remote, packages, domains, executables, modules, crates, protocol identifiers, or external resources. Do not merge the pull request, mark it ready, modify licenses, rewrite history, or edit docs/project/archive/**.
 
 First verify:
@@ -37,9 +39,7 @@ Read at minimum:
 - docs/development/testing-strategy.md and conformance.md;
 - docs/project/open-questions.md and risks.md;
 - docs/rfc/0001-adopt-harriet-name.md and the RFC template.
-```
 
-```text
 Create docs/rfc/0002-compact-rescue-vertical-slice.md with status proposed. The RFC must define the minimum falsifiable vertical slice, not a complete platform or released product.
 
 The RFC must integrate four requirements:
@@ -69,9 +69,7 @@ The RFC must integrate four requirements:
    - Support rescue handoff: a search team can mark a located group, continue searching, and allow a recovery team to accept and complete the task.
    - Location may be GNSS, stale GNSS, nearest relay, chain-relative, ranged, manually assigned, or last heard; method, age, uncertainty, and confidence must remain explicit.
    - Prevent covert permanent tracking through visible activation, temporary identifiers, expiry, bounded retention, authenticated assignment and clearance, and distinct person versus asset policy.
-```
 
-```text
 The RFC must specify measurable byte and airtime budgets before implementation. Include a budget table for:
 
 - first contact;
