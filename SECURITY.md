@@ -1,9 +1,31 @@
 # Security policy
 
-Groundwave has no supported release yet. Security reports about repository content, future specifications, or related prototypes are still welcome.
+Groundwave has no supported release or certified security profile. Reports about repository content, specifications under design, or related prototypes are welcome.
 
-Do not file a public issue containing exploit details, personal data, precise vulnerable deployments, credentials, or radio identifiers. Use GitHub's private vulnerability reporting feature for the affected GroundWaveJack repository when available. If it is unavailable, open a public issue requesting a private contact channel without including sensitive details.
+## Report privately
 
-Include the affected repository and revision, impact, prerequisites, reproduction outline, and any safe mitigation. Pseudonymous reports are welcome. Do not test against systems or spectrum without authorization.
+Use GitHub private vulnerability reporting for the affected `GroundWaveJack` repository when available. Do not publish exploit details, personal data, precise deployments, credentials, keys, radio identifiers, or location information.
 
-The project will acknowledge reports when maintainer capacity permits, coordinate remediation and disclosure, and credit reporters according to their preference. No response-time or bounty guarantee is currently offered.
+If private reporting is unavailable, open a minimal public issue requesting a private channel. Name only the affected repository and omit sensitive detail. Pseudonymous and encrypted reports are welcome when the channel supports them. Never send live credentials or keys.
+
+## Useful report content
+
+When safe, include:
+
+- affected repository, revision, hardware profile, and configuration;
+- impact, including privacy, safety, and resource effects;
+- required physical, authenticated, network, or radio access;
+- a minimal authorized reproduction;
+- sanitized logs;
+- suggested mitigations and disclosure constraints;
+- preferred attribution, including none.
+
+Do not test other people's systems, shared infrastructure, or spectrum without authorization. Do not disrupt communications, bypass owner policy, intercept content, or collect unrelated data.
+
+## Project handling
+
+Maintainers intend to confirm receipt when capacity permits, evaluate scope, preserve confidentiality, coordinate correction, and discuss disclosure timing. Reports may involve external upstream projects; coordination boundaries will be explained when known.
+
+There is no guaranteed response or remediation time, support window, bounty, embargo acceptance, eligibility promise, or safe-harbor relationship. The project does not require a reporter's legal identity for credit or triage.
+
+See the [threat model](THREAT_MODEL.md) and [support policy](SUPPORT.md).
