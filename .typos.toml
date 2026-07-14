@@ -1,0 +1,18 @@
+[files]
+extend-exclude = [
+  "docs/project/archive/**",
+]
+
+[default.extend-words]
+AREDN = "AREDN"
+BPSec = "BPSec"
+BPv7 = "BPv7"
+Groundwave = "Groundwave"
+labgrid = "labgrid"
+LibreMesh = "LibreMesh"
+LXMF = "LXMF"
+Meshtastic = "Meshtastic"
+OpenWrt = "OpenWrt"
+RNode = "RNode"
+Reticulum = "Reticulum"
+Zack = "Zack"
