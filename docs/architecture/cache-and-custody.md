@@ -9,3 +9,5 @@ Upstream deletion requires authenticated custody acknowledgment and policy satis
 Before emitting custody acceptance, a node must durably store and verify the protected object and required metadata, reserve bounded capacity, and record expiration, replica, confidentiality, and deletion policy. Restart recovery must not invent acceptance or silently lose an accepted obligation. Required states include offered, refused, retained, accepted, transferred, delivered, expired, and released, with authenticated evidence for transitions that authorize upstream deletion.
 
 A next-hop transfer is not sufficient for deletion unless policy explicitly permits it. Profiles must define disk-exhaustion, corruption, clock-uncertainty, revocation, restart, and unavailable-successor behavior. Custody, endpoint delivery, rendering, and human acknowledgment remain separate events.
+
+The proposed rescue slice applies these rules to cached contracts, newest incident state, and cancellation propagation in [RFC 0002](../rfc/0002-compact-rescue-vertical-slice.md).

@@ -45,6 +45,8 @@ The communication exchange uses four distinct record classes:
 - profile-scoped **forwarding and custody state**;
 - append-only **evidence records** for precisely typed events.
 
+The logical envelope is not repeated in every packet. [RFC 0002](docs/rfc/0002-compact-rescue-vertical-slice.md) proposes canonical, compact-initial, cached-reference, and extreme-constrained forms for a falsifiable rescue slice. Compact references resolve only within declared origin, incident, profile, and cryptographic scope; missing or ambiguous state fails closed. See the [communication envelope](docs/architecture/communication-envelope.md) and [distress model](docs/architecture/distress-and-rescue.md).
+
 Available paths, energy, queues, trust estimates, and delivery probability are not signed end-to-end truth. They are source-attributed, expiring local observations. The term “core” refers to the contracts among logical roles, not a central coordinator or monolithic service.
 
 ## Translation and delivery

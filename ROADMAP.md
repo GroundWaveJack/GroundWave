@@ -7,7 +7,7 @@ Dates are intentionally absent until evidence supports scheduling.
 - Maintain the Harriet public-name explanation and stewardship obligations; complete cultural, accessibility, availability, legal, and identifier review before any live migration.
 - Publish terminology, doctrine, threat model, ADR/RFC process, repository map, and documentation checks.
 - Define protocol-neutral communication-envelope and translation-receipt schemas, including compact wire representations and measured byte ceilings for constrained profiles.
-- Draft RFC 0002 for Red Distress, deployable rescue relay chains, incident-scoped markers, and the first Reticulum-oriented rescue vertical slice.
+- Review proposed RFC 0002 for Red Distress, deployable rescue relay chains, incident-scoped markers, and the first Reticulum-oriented rescue vertical slice; derive numeric fixtures only after two profile mappings exist.
 - Reconcile satellite repository descriptions without deleting history.
 - Resolve canonical license texts through explicit maintainer and specialist review.
 
@@ -17,7 +17,7 @@ Dates are intentionally absent until evidence supports scheduling.
 - Build test fixtures before production implementations.
 - Profile Reticulum/LXMF and BPv7/BPSec against the same intent and delivery cases.
 - Demonstrate opaque relay, bounded cache, authenticated custody, and loss-declared derivation in a lab.
-- Demonstrate bounded Red Distress propagation through an entrance relay and breadcrumb chain, compact responder acknowledgment, multiple marker handoffs, partition handling, and authenticated cancellation.
+- Demonstrate bounded Red Distress propagation through an entrance relay and breadcrumb chain, compact responder acceptance, multiple marker handoffs, partition handling, and authenticated cancellation against predeclared measurement gates.
 - Split hardware requirements, qualified BOM, and procurement manifest; perform flat-build acceptance tests.
 
 ## Later and research

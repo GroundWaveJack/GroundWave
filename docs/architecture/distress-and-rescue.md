@@ -2,6 +2,8 @@
 
 **State:** Architecture under design; not implemented or approved for life-safety reliance.
 
+The minimum falsifiable slice, compact representations, and measurement gates are proposed in [RFC 0002](../rfc/0002-compact-rescue-vertical-slice.md).
+
 Harriet should support a predefined **Red Distress** intent for situations where a person may have seconds, one usable hand, poor visibility, or no usable screen. A deliberate physical or software action creates one authenticated logical emergency record and begins bounded retransmission across every permitted profile.
 
 Red Distress is a Harriet intent class, not a claim of compatibility with regulated emergency beacons, marine distress systems, aviation systems, public-safety networks, or emergency services. Deployments must state which external systems are actually integrated and qualified.

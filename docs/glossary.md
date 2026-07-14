@@ -16,6 +16,8 @@ These vocabularies answer different questions. A PROFILE posture is not a maturi
 - **Harriet marker:** a small incident-scoped person, group, responder, asset, hazard, or waypoint marker with temporary identifiers, explicit location evidence, and bounded reporting.
 - **Base:** a larger owner-controlled node that can contribute bounded storage, power, bandwidth, radios, or uptime.
 - **Communication envelope:** intent, policy, capability, representation, delivery, and provenance data for an exchange.
+- **Compact communication contract:** the canonical integrity-bound contract plus three constrained forms: a self-contained compact initial representation, a cached contract reference for changed state, and an extreme-constrained authenticated signal whose missing context remains explicit.
+- **Responder acceptance:** authenticated, incident-scoped acceptance of a defined response task by an authorized role; distinct from profile acceptance, custody, transfer, endpoint receipt, and human acknowledgment.
 - **Custody:** an authenticated, bounded commitment to retain and attempt forwarding; not proof of final delivery.
 - **Edge:** a sender or recipient device where human intent and content authority reside.
 - **Home relay:** an explicitly declared relay relationship, not an inferred location or tracking record.

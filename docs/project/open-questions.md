@@ -2,9 +2,10 @@
 
 **State:** Architecture under design; these questions are unresolved.
 
-- What is the minimal protocol-neutral envelope encoding and disclosure model?
-- What is the smallest useful authenticated Red Distress representation for each constrained profile, and what byte and airtime ceilings should fail the design?
-- Which authenticated responder event may change or end a distress transmission cycle without mistaking transport receipt for rescue acceptance?
+- After fixtures and at least two profile mappings, what minimal protocol-neutral encoding and disclosure model should be adopted?
+- What numeric byte, airtime, retry, energy, and useful-payload ceilings should fail each constrained-profile rescue fixture?
+- How should short-reference scope, collision recovery, cache misses, cryptographic restart, and rekey behave?
+- Which authenticated and policy-bound responder role may accept or change a distress task without mistaking transport receipt for rescue acceptance?
 - How should deployable relay chains and markers express path-relative location, uncertainty, stale state, and partition evidence when GNSS is unavailable?
 - How are human, device, service, and group identity bindings migrated and revoked?
 - Which acknowledgment types are interoperable across profiles?

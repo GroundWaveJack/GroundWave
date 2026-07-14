@@ -2,7 +2,7 @@
 
 - [Project state](../PROJECT_STATE.md), [vision](../VISION.md), [doctrine](../DOCTRINE.md), and [roadmap](../ROADMAP.md)
 - [Why Harriet](../WHY_HARRIET.md), [name-adoption RFC](rfc/0001-adopt-harriet-name.md), and [terminology and migration](project/terminology-and-rename.md)
-- [Architecture overview](architecture/overview.md), [distress and rescue](architecture/distress-and-rescue.md), and [threat model](../THREAT_MODEL.md)
+- [Architecture overview](architecture/overview.md), [distress and rescue](architecture/distress-and-rescue.md), [compact rescue RFC](rfc/0002-compact-rescue-vertical-slice.md), and [threat model](../THREAT_MODEL.md)
 - [Hardware embodiments](hardware/embodiments.md), [deployable relay](hardware/deployable-relay.md), [Harriet marker](hardware/marker.md), and [qualification](hardware/qualification-model.md)
 - [Integration profiles](integrations/reticulum.md) and [standards strategy](standards/standards-map.md)
 - [Testing](development/testing-strategy.md), [conformance](development/conformance.md), [Codex rescue update prompt](development/codex-rescue-update-prompt.md), and [release process](development/release-process.md)

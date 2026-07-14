@@ -11,3 +11,5 @@ Capabilities, reachability, route metrics, energy, queues, and candidate transfo
 The logical contract and the constrained wire representation are separate artifacts. A canonical contract may be stored or exchanged once while later packets use compact profile codes, omitted defaults, short scoped references, relative lifetimes where safe, and message- or session-level authentication context. Full identity, policy, and signature material must not be repeated on every fragment merely because the logical envelope contains it.
 
 Sensitive capability and reachability data should be minimized, scoped, and expired. Canonical encoding, compact representations, signature binding, disclosure tiers, byte ceilings, and size limits remain open. Schema and profile fixtures with measured useful payload and airtime are prerequisites for implementation claims.
+
+[RFC 0002](../rfc/0002-compact-rescue-vertical-slice.md) proposes four representation forms and measurable gates for the rescue vertical slice without selecting a universal encoding.
