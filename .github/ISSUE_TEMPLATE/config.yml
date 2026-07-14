@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/GroundWaveJack/GroundWave/security
+    about: Use private vulnerability reporting; do not publish exploit details.
+  - name: Support policy
+    url: https://github.com/GroundWaveJack/GroundWave/blob/main/SUPPORT.md
+    about: Read project maturity and support limits first.

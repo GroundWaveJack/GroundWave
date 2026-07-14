@@ -1,0 +1,35 @@
+name: Integration profile proposal
+description: Propose a versioned mapping to an external standard or project.
+title: "profile: "
+labels: [integration, proposal]
+body:
+  - type: input
+    id: upstream
+    attributes:
+      label: Standard or upstream project and version
+    validations:
+      required: true
+  - type: textarea
+    id: semantics
+    attributes:
+      label: Supported mappings, gaps, and failure behavior
+    validations:
+      required: true
+  - type: textarea
+    id: trust
+    attributes:
+      label: Security, privacy, metadata, and trust-boundary effects
+    validations:
+      required: true
+  - type: textarea
+    id: conformance
+    attributes:
+      label: Fixtures and interoperability plan
+    validations:
+      required: true
+  - type: textarea
+    id: upstream_plan
+    attributes:
+      label: Upstream coordination and maintenance plan
+    validations:
+      required: true

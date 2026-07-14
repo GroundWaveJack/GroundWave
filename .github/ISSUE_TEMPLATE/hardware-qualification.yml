@@ -1,0 +1,36 @@
+name: Hardware qualification evidence
+description: Submit reproducible evidence for a defined hardware configuration.
+title: "hardware: qualification evidence for "
+labels: [hardware, qualification]
+body:
+  - type: dropdown
+    id: requested_state
+    attributes:
+      label: Requested state
+      options: [Community-tested, Compatible, Qualified]
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Complete configuration and revisions
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure, instruments, calibration, and environment
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Raw results, uncertainty, failures, and artifact links
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and regulatory scope
+    validations:
+      required: true
