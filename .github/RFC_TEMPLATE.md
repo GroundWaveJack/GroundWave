@@ -3,6 +3,8 @@
 **Status:** proposed  
 **Authors:** pseudonyms permitted  
 **Discussion deadline:**
+**Decision owner:**
+**Target disposition:** accept | revise | defer | reject | withdraw
 
 ## Summary and user need
 
@@ -18,4 +20,10 @@
 
 ## Conformance and acceptance criteria
 
+## Rollout evidence and documentation impact
+
 ## Open questions
+
+## Disposition
+
+Complete when closed: outcome, rationale, minority concerns, required ADRs, implementation issues, and superseded records.

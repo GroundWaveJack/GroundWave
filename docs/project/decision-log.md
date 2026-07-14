@@ -13,3 +13,9 @@
 | Groundwave name provisional | Adopted | [ADR 0009](../adr/0009-groundwave-name-is-provisional.md) |
 
 Fiscal sponsorship, a nonprofit entity, board structure, exact channel plans, fixed hardware SKUs, FieldNode-first delivery, and mandatory zero-subscription rules are not established facts. They require evidence or new decisions.
+
+## Decision lifecycle
+
+An RFC moves through proposed, discussion, disposition, and closed states. The decision owner closes it as accepted, revise, deferred, rejected, or withdrawn and records rationale, unresolved objections, and follow-up. Accepted architecture is captured in an ADR; acceptance alone does not imply implementation.
+
+An ADR moves from proposed to adopted only through an explicit maintainer decision. It may later be superseded or deprecated, but remains in place with forward links. Implementation issues and evidence link back to the decision. Historical source documents move to the archive only with a banner naming date, original status, current status, and superseding record; archive files are never silently rewritten into current policy.

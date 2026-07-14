@@ -7,5 +7,14 @@
 - [Testing](development/testing-strategy.md), [conformance](development/conformance.md), and [release process](development/release-process.md)
 - [Repository audit](project/repository-audit.md), [decision log](project/decision-log.md), and [open questions](project/open-questions.md)
 - [Glossary](glossary.md)
+- [Contributing](../CONTRIBUTING.md), [governance](../GOVERNANCE.md), [documentation style](development/documentation-style.md), and [repository map](development/repository-map.md)
+
+## Choose a path
+
+- **Understand the project:** read project state, vision, doctrine, then architecture.
+- **Evaluate a claim:** check its glossary state, current status, conformance evidence, and known risks.
+- **Propose a change:** use the contribution guide and decision log; start an RFC before cross-cutting design work.
+- **Implement or test:** use the testing strategy, profile conformance requirements, and release gates.
+- **Report a need:** use the documentation/user-need issue form; report vulnerabilities through the security policy.
 
 Pages describe maturity explicitly. Absence of an implementation link means a design is not implemented.
