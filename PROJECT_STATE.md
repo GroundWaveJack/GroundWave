@@ -1,6 +1,7 @@
 # Project state
 
-**As of:** 2026-07-14  
+**As of:** 2026-07-14
+
 **Maturity:** architecture under design
 
 ## What exists
@@ -13,7 +14,7 @@
 
 ## Adopted and under design
 
-Human intent is the stable abstraction; Groundwave is a platform rather than one protocol or kit; Reticulum is a profile; ordinary relays preserve opaque end-to-end protection; translation is explicit; delivery controls remain separate and bounded; and upstream standards take precedence over reinvention.
+Human intent is the stable abstraction; Groundwave is a platform rather than one protocol or kit; Reticulum is the adopted target for the first profile, which remains under design without a conformance claim; ordinary relays do not require plaintext; translation is explicit; delivery controls remain separate and bounded; and upstream standards take precedence over reinvention.
 
 The communication envelope, identity bindings, adaptive representation, receipts, custody, home relays, multipath, segmentation, Base contribution, expansion modules, and conformance suite remain under design.
 

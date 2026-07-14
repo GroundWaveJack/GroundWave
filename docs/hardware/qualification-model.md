@@ -1,5 +1,7 @@
 # Hardware qualification model
 
+**State:** Adopted qualification vocabulary; the process has not yet produced qualified hardware.
+
 All hardware is pre-qualification unless a published evidence record says otherwise. Maintain three separate artifacts:
 
 - **Hardware Requirements Specification (HRS):** technology-neutral functions, interfaces, limits, hazards, and acceptance methods. It must not depend on a commercial stock-keeping unit where a component class is sufficient.

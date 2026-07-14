@@ -1,5 +1,23 @@
-# ADR 0004: Reticulum is a supported profile
+# ADR 0004: Reticulum is the first profile target
 
-**Status:** adopted, 2026-07-14
+**Date:** 2026-07-14
 
-Reticulum, LXMF, and RNode remain important candidates for low-bandwidth and infrastructure-independent communication. They are externally governed dependencies and cannot define every platform semantic. A Reticulum profile will map supported semantics and declare gaps; it will not silently approximate unsupported requirements.
+**Decision owner:** Jack
+
+**Status:** adopted
+
+**Supersedes earlier scope:** Yes — Reticulum no longer defines the entire platform.
+
+**Related RFC:** None; originating maintainer directive.
+
+## Decision
+
+Reticulum is the adopted target for the first integration profile. Reticulum, LXMF, and RNode remain externally governed dependencies and cannot define every platform semantic. The profile remains architecture under design, must declare unsupported semantics, and has no current conformance claim.
+
+## Consequences and limitations
+
+Existing experiments retain a migration path, while Groundwave must avoid silently approximating delivery, identity, or acknowledgment requirements that the profile cannot express.
+
+## Review trigger
+
+Reconsider target priority if maintained upstream behavior, security posture, licensing compatibility, or conformance evidence makes a responsible profile infeasible.

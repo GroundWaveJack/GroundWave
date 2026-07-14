@@ -13,7 +13,7 @@ This describes the project's current decision process, not a legal organization.
 - No sponsor, vendor, or maintainer may make a centralized service mandatory.
 - Project roles grant scoped work and review responsibility, not access to contributor identities or message plaintext.
 
-Routine reversible changes use pull requests. Significant architecture changes are recorded in architecture decision records (ADRs); broad, cross-repository, contested, or compatibility-breaking proposals use requests for comments (RFCs). Governance, licensing, naming, repository archival, and compatibility-breaking changes require an RFC and explicit maintainer decision. Discussion does not adopt an RFC: acceptance must name the decision owner, disposition, implementation conditions, and resulting ADRs or follow-up work.
+Routine reversible changes use pull requests. Significant architecture changes are recorded in architecture decision records (ADRs); broad, cross-repository, contested, or compatibility-breaking proposals use requests for comments (RFCs). Governance, licensing, naming, repository archival, and compatibility-breaking changes require an RFC and explicit maintainer decision. Governance amendments require a public proposal and at least seven days for review. Discussion does not adopt an RFC: acceptance must name the decision owner, disposition, implementation conditions, and resulting ADRs or follow-up work.
 
 Maintainers are added after sustained, technically sound, constructive contribution in a defined area. Future distributed governance must document role scope, removal, succession, conflict handling, and key custody before claiming operation.
 
@@ -28,4 +28,4 @@ Until additional maintainers are appointed through a documented decision, one ma
 
 The [code of conduct](CODE_OF_CONDUCT.md) applies. During founder stewardship, Jack handles reports. A future independent appeals path is desired but not yet available.
 
-Changes to pseudonymous participation, copyleft intent, fork rights, or resistance to exclusive corporate control require a public RFC with at least 30 days for comment. This document makes no claim that such a review community currently exists.
+Changes to pseudonymous participation, copyleft intent, fork rights, or resistance to exclusive corporate control require a public RFC with at least 30 days for comment. Once multiple maintainers exist, these changes also require broad maintainer consent. This document makes no claim that such a review community currently exists.

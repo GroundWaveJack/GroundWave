@@ -1,7 +1,6 @@
 name: Hardware qualification evidence
 description: Submit reproducible evidence for a defined hardware configuration.
 title: "hardware: qualification evidence for "
-labels: [hardware, qualification]
 body:
   - type: dropdown
     id: requested_state

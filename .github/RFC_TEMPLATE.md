@@ -1,7 +1,9 @@
 # RFC: concise title
 
-**Status:** proposed  
-**Authors:** pseudonyms permitted  
+**Status:** proposed
+
+**Authors:** pseudonyms permitted
+
 **Discussion deadline:**
 **Decision owner:**
 **Target disposition:** accept | revise | defer | reject | withdraw

@@ -1,5 +1,7 @@
 # Communication envelope
 
+**State:** Architecture under design; not implemented.
+
 The proposed envelope groups records without making them equally trusted or immutable. Its integrity-bound intent contract carries recipient binding, a payload-manifest digest, independent delivery policy, transformation authority, confidentiality, and required acknowledgment. Changing these fields creates a new contract or authorized derivative; a relay cannot rewrite them because a path is constrained.
 
 The payload manifest identifies content objects, media types, digests, dependencies, protection bindings, and provenance. A digest establishes object identity within its scheme, not truth, authorship, or semantic equivalence.

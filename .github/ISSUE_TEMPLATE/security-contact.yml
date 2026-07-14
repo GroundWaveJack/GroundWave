@@ -1,0 +1,15 @@
+name: Request a private security contact
+description: Open a minimal public request when private vulnerability reporting is unavailable.
+title: "security: request private contact"
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include vulnerability details, credentials, identities, locations, radio identifiers, or other sensitive information. This issue only requests a private channel.
+  - type: checkboxes
+    id: safe_request
+    attributes:
+      label: Safe public request
+      options:
+        - label: I have omitted all sensitive and technical vulnerability details.
+          required: true

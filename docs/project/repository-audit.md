@@ -1,7 +1,9 @@
 # GroundWaveJack repository audit
 
-**Audit date:** 2026-07-14  
-**Evidence:** GitHub repository metadata, default-branch trees, README and governance content, and commit metadata.  
+**Audit date:** 2026-07-14
+
+**Evidence:** GitHub repository metadata, default-branch trees, README and governance content, and commit metadata.
+
 **Scope:** All eight public repositories owned by `GroundWaveJack` at the audit date.
 
 ## Executive finding

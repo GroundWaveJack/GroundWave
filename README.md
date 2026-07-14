@@ -10,7 +10,7 @@ The promise is bounded: Groundwave cannot create connectivity, defeat physics, o
 
 ## Project state
 
-Groundwave is in architecture and reference-design work. There is no released platform implementation. A separate repository contains an unqualified, pre-prototype FieldNode design. Reticulum, LXMF, and RNode are important integration candidates—not the platform definition.
+Groundwave is in architecture and reference-design work. There is no released platform implementation. A separate repository contains an unqualified, pre-prototype FieldNode design. Reticulum is the adopted target for the first profile; that profile remains architecture under design and has no conformance claim.
 
 See the evidence-based [project state](PROJECT_STATE.md), intended [vision](VISION.md), adopted [doctrine](DOCTRINE.md), and [roadmap](ROADMAP.md).
 

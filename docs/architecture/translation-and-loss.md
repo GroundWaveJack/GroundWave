@@ -1,5 +1,7 @@
 # Translation and loss
 
+**State:** Architecture under design; not implemented.
+
 Ordinary relays do not translate protected content. An explicitly trusted gateway receives narrowly scoped authority and emits a translation receipt containing original media type and digest, derived type and digest, method and version, known loss, uncertain content, and whether the original was retained.
 
 Translation flows through local policy and profile negotiation. If an authorized derivative is required, the trusted translator produces the derivative and receipt, then returns both through policy evaluation and profile selection because size, media type, confidentiality, and minimum representation may have changed. Unsupported or forbidden translation produces an explicit refusal.

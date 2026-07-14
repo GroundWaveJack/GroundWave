@@ -1,5 +1,7 @@
 # Delivery policy
 
+**State:** Architecture under design; not implemented.
+
 Delivery dimensions remain independent:
 
 | Dimension | Question |

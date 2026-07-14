@@ -1,5 +1,7 @@
 # Open questions
 
+**State:** Architecture under design; these questions are unresolved.
+
 - What is the minimal protocol-neutral envelope encoding and disclosure model?
 - How are human, device, service, and group identity bindings migrated and revoked?
 - Which acknowledgment types are interoperable across profiles?

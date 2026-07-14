@@ -1,7 +1,6 @@
 name: Integration profile proposal
 description: Propose a versioned mapping to an external standard or project.
 title: "profile: "
-labels: [integration, proposal]
 body:
   - type: input
     id: upstream
