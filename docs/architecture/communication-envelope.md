@@ -8,4 +8,6 @@ The payload manifest identifies content objects, media types, digests, dependenc
 
 Capabilities, reachability, route metrics, energy, queues, and candidate transformations are local planning context. Profile headers, hop consumption, attempt identifiers, and custody state are mutable forwarding state with profile-specific integrity rules. Evidence is append-only relative to the intent and names the contract, object or derivative, event class, issuer, time semantics, and verification material.
 
-Sensitive capability and reachability data should be minimized, scoped, and expired. Canonical encoding, signature binding, disclosure tiers, and size limits remain open. Schema fixtures are a prerequisite for implementation claims.
+The logical contract and the constrained wire representation are separate artifacts. A canonical contract may be stored or exchanged once while later packets use compact profile codes, omitted defaults, short scoped references, relative lifetimes where safe, and message- or session-level authentication context. Full identity, policy, and signature material must not be repeated on every fragment merely because the logical envelope contains it.
+
+Sensitive capability and reachability data should be minimized, scoped, and expired. Canonical encoding, compact representations, signature binding, disclosure tiers, byte ceilings, and size limits remain open. Schema and profile fixtures with measured useful payload and airtime are prerequisites for implementation claims.

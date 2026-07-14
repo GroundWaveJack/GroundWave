@@ -4,7 +4,9 @@
 
 Testing proceeds from deterministic schemas and state machines to adapters, adverse networks, hardware benches, and staged deployments. Required classes include unit/property tests, canonical encoding, compatibility fixtures, malformed input, privacy and quota cases, fault injection, simulation, interoperability, hardware-in-loop, and field evidence.
 
-Tests publish versions, seeds, topology, environment, expected result, actual result, and artifacts. A passing happy path cannot establish security, scale, or qualification.
+Tests publish versions, seeds, topology, environment, expected result, actual result, and artifacts. A passing happy path cannot establish security, scale, or qualification. Constrained-profile tests also publish physical or profile MTU, transport overhead, Harriet overhead per message and fragment, useful payload, bitrate, airtime, retries, duty cycle, and energy use.
+
+Rescue tests cover Red Distress activation and cancellation, first contact and cached-context heartbeats, duplicate suppression, responder acceptance, deployable-relay partitions, marker assignment and clearance, stale or uncertain location, low battery, malicious replay, and post-incident decommissioning.
 
 ## Documentation checks
 

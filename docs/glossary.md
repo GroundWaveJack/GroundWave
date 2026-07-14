@@ -11,6 +11,9 @@
 These vocabularies answer different questions. A PROFILE posture is not a maturity claim, and a released document does not qualify hardware.
 
 - **Harriet:** the adopted public project and platform name, honoring Harriet Tubman under the commitments in `WHY_HARRIET.md`; not a settled package, executable, repository, or protocol identifier.
+- **Red Distress:** a predefined authenticated emergency intent with bounded persistent delivery until an authorized stop condition or expiry; not a claim of connection to emergency services.
+- **Deployable relay:** an incident-placed node that extends a bounded path into an obstructed or disconnected environment and reports link uncertainty and partitions.
+- **Harriet marker:** a small incident-scoped person, group, responder, asset, hazard, or waypoint marker with temporary identifiers, explicit location evidence, and bounded reporting.
 - **Base:** a larger owner-controlled node that can contribute bounded storage, power, bandwidth, radios, or uptime.
 - **Communication envelope:** intent, policy, capability, representation, delivery, and provenance data for an exchange.
 - **Custody:** an authenticated, bounded commitment to retain and attempt forwarding; not proof of final delivery.
